@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomRatingBar">
+
+        <attr name="selected_star" format="reference" />
+        <attr name="un_selected_star" format="reference" />
+        <attr name="selected_star_color" format="color" />
+        <attr name="un_selected_star_color" format="color" />
+        <attr name="star_size" format="dimension"/>
+        <attr name="no_of_stars" format="integer"/>
+        <attr name="star_spacing" format="dimension"/>
+<!--        <attr name="show_rounded_corners" format="dimension"/>-->
+        <attr name="custom_star_imageView" format="reference"/>
+
+    </declare-styleable>
+
+</resources>

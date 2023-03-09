@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:customRatingBar="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    >
+
+
+    <com.omerakkoyun.mycustomratingbar.customview.custom_rating_bar.CustomRatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:selected_star_color="@color/selected_star_color"
+        app:un_selected_star_color="@color/un_selected_star_color"
+        app:no_of_stars="20"
+        android:id="@+id/customRatingBar"
+        app:selected_star="@drawable/ic_star"
+        app:un_selected_star="@drawable/ic_star"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
